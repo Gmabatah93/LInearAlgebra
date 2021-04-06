@@ -17,6 +17,9 @@
 
 ## Singular Value Decomposition
 <img src="Images/SVD_UEV.PNG" width="400" />
+
+- **RANK**: number of linearly independent columns of A
+
 <img src="Images/SVD_UEV_Graphic.PNG" width="300" />
 <img src="Images/SVD_UEV_Graphic_U.PNG" width="300" />
 <img src="Images/SVD_UEV_Graphic_E.PNG" width="300" />
