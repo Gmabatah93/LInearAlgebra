@@ -13,3 +13,15 @@
 
 ### Matrix Matrix Multiplication
 <img src="Images/MatrixMatrixX.PNG" width="300" />
+
+
+## Singular Value Decomposition
+<img src="Images/SVD_UEV.PNG" width="400" />
+<img src="Images/SVD_UEV_Graphic.PNG" width="300" />
+<img src="Images/SVD_UEV_Graphic_U.PNG" width="300" />
+<img src="Images/SVD_UEV_Graphic_E.PNG" width="300" />
+<img src="Images/SVD_UEV_Graphic_V.PNG" width="300" />
+
+- **U**: user-to-concept _similarity matrix_
+- **E**: strength of concept
+- **U**: movie-to-concept _similarity matrix_
