@@ -30,25 +30,28 @@ A + B
 sum(wnba_Massey[,1])
 sum(wnba_Diff)
 
-# Eigenvectors & Eigenvalues
+# Eigenvectors & Eigenvalues ----
+
+# - Matrices
 A <- matrix(c(2,0.000,0,0.666), nrow = 2, byrow = TRUE)
 B <- matrix(c(-1,2,4,0,7,12,0,0,-14), nrow = 3, byrow = TRUE)
 C <- matrix(c(1,2,1,1), nrow = 2, byrow = TRUE)
-#   - Scalar Multiplication
+
+# - Scalar Multiplication
 A %*% c(1,1)
-#   - Eigenvalue
+# - Show that 7 is an eigenvalue for B
 B %*% c(0.2425356, 0.9701425, 0) - 7*c(0.2425356, 0.9701425, 0)
+# - Show that -4 is an eigenvalue for B
 B %*% c(-0.3789810, -0.6821657, 0.6253186) - (-4)*c(-0.3789810, -0.6821657, 0.6253186)
+# - Show that -1 is an eigenvalue for B with eigenvector (1,0,0)
 B %*% c(1, 0, 0) - (-1)*c(1, 0, 0)
-B %*% ((2)*c(0.2425356, 0.9701425, 0)) - 7*(2)*c(0.2425356, 0.9701425, 0)
-B %*% ((0.5)*c(0.2425356, 0.9701425, 0)) - 7*(0.5)*c(0.2425356, 0.9701425, 0)
-
-Lambda <- eigen(C)
-det(Lambda$values[1] * diag(2) - C)
-det(Lambda$values[2] * diag(2) - C)
-
-Lambda$values[1] * Lambda$vectors[,1] - C %*% Lambda$vectors[,1]
-Lambda$values[2] * Lambda$vectors[,2] - C %*% Lambda$vectors[,2]
+# - Compute the eigenvalues of C
+Eig_C <- eigen(C)
+Eig_C$values
+Eig_C$vectors
+# - A*v = Lambda*v
+C %*% Eig_C$vectors[,1] - Eig_C$values[1] * Eig_C$vectors[,1]
+C %*% Eig_C$vectors[,2] - Eig_C$values[2] * Eig_C$vectors[,2]
 
 # Principal Componenet Analysis
 nfl <- read_csv("https://assets.datacamp.com/production/repositories/2654/datasets/760dae913f682ba6b2758207280138662ddedc0d/DataCampCombine.csv")
