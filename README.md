@@ -24,11 +24,29 @@
 <img src="Images/MatrixVectorX2.PNG" width="300" />
 
 ### Matrix Matrix Multiplication
-<img src="Images/MatrixMatrixX.PNG" width="300" />
+<img src="Images/MatrixMatrixX.PNG" width="300">
 
 ---
 
 ## Eigenvalue & Eigenvector
+<img src="Images/EIG.PNG" width="300">
+
+### Solve for Eigenvector & Eigenvalue
+**EXAMPLE 1**
+
+<img src="Images/EIG_Example.PNG" width="300">
+<img src="Images/EIG_Solve.PNG" width="300">
+<img src="Images/EIG_Solve_Eigenvalues.PNG" width="300">
+<img src="Images/EIG_Solve_Eigenvector1.PNG" width="300">
+<img src="Images/EIG_Solve_Eigenvector2.PNG" width="300">
+
+**EXAMPLE 2**
+
+<img src="Images/EIG_Example2.PNG" width="300">
+<img src="Images/EIG_Example2_Eigenvalues.PNG" width="300">
+<img src="Images/EIG_Example2_Eigenvector1.PNG" width="300">
+<img src="Images/EIG_Example2_Eigenvector2.PNG" width="300">
+<img src="Images/EIG_Example2_Eigenvector3.PNG" width="300">
 
 ---
 
@@ -64,3 +82,10 @@
 <img src="Images/SVD_A_red.PNG" width="300">
 
 - Dimensionality Reduction: Set smallest singular values to zero
+
+**EXAMPLE**
+
+<img src="Images/SVD_Example.PNG" width="300">
+<img src="Images/SVD_Example_ProjectionViz.PNG" width="300">
+<img src="Images/SVD_Example_Projection.PNG" width="300">
+<img src="Images/SVD_Example_Projection2.PNG" width="300">
