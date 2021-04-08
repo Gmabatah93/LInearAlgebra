@@ -16,6 +16,7 @@
 #### Linear Transformations
 
 <img src="Images/Matrix_LinearTransformation.PNG" width="300">
+<img src="Images/Matrix_LinearTransformation2.PNG" width="400">
 <img src="Images/Matrix_LinearTransformation_Rotation.PNG" width="300">
 <img src="Images/Matrix_LinearTransformation_Scale.PNG" width="300">
 
