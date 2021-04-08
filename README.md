@@ -5,7 +5,19 @@
 <img src="Images/Vectors.PNG" width="300" />
 
 ## Matrix
-<img src="Images/Matrix.PNG" width="300" />
+> Defines a linear transformation
+
+<img src="Images/Matrix.PNG" width="300">
+
+#### Covariance
+
+<img src="Images/Matrix_Covariance.PNG" width="300">
+
+#### Linear Transformations
+
+<img src="Images/Matrix_LinearTransformation.PNG" width="300">
+<img src="Images/Matrix_LinearTransformation_Rotation.PNG" width="300">
+<img src="Images/Matrix_LinearTransformation_Scale.PNG" width="300">
 
 ### Matrix Vector Multiplication
 <img src="Images/MatrixVectorX.PNG" width="300" />
@@ -14,9 +26,15 @@
 ### Matrix Matrix Multiplication
 <img src="Images/MatrixMatrixX.PNG" width="300" />
 
+---
+
+## Eigenvalue & Eigenvector
+
+---
 
 ## Singular Value Decomposition
-<img src="Images/SVD_UEV.PNG" width="400" />
+<img src="Images/SVD_LinearTransformation.PNG" width="400">
+<img src="Images/SVD_UEV.PNG" width="400">
 
 - **RANK**: number of linearly independent columns of A
 
@@ -25,9 +43,9 @@
 <img src="Images/SVD_UEV_Graphic_E.PNG" width="300">
 <img src="Images/SVD_UEV_Graphic_V.PNG" width="300">
 
-- **U**: user-to-concept _similarity matrix_
+- **U**: obs-to-concept _similarity matrix_
 - **E**: strength of concept
-- **U**: movie-to-concept _similarity matrix_
+- **U**: feats-to-concept _similarity matrix_
 
 <img src="Images/SVD_axis.PNG" width="300">
 
